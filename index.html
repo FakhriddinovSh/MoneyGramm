@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyGramm</title>
+</head>
+<body>
+    <form id="form" method="get" autocomplete="off">
+        <div>
+          <input id="form__input" 
+          type="number" 
+          name="user_name" 
+          aria-label="Dollarda kiriting: " 
+          placeholder="Dollarda kiriting"
+          min="1">
+        </div>
+    
+        <select id="form__select" name="user_selected">
+          <option value="10850">UZS</option>
+          <option value="80">Rubl</option>
+          <option value="088">Euro</option>
+        </select>
+    
+        <button type="submit">Calculate</button>
+        <span id="form__result"></span>
+    </form>
+
+
+<script src="./js/main.js"></script>    
+</body>
+</html>
